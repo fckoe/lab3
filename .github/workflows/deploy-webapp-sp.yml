@@ -3,8 +3,9 @@ name: 2 Build and Deploy Web App to Azure (SP)
 on: 
   push:
     branches: ["main"]
+  
   workflow_dispatch
-
+  
 env:
   AZURE_WEBAPP_NAME: wapp-felab03    # set this to your application's name
   AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
