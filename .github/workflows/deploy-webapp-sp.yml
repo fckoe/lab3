@@ -3,7 +3,7 @@ name: 2 Build and Deploy Web App to Azure (SP)
 on: 
   push:
     branches: ["main"]
-    
+
 workflow_dispatch
 
 env:
